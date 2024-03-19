@@ -1,0 +1,19 @@
+* CLI Chatbot Using OpenAi API
+
+#+begin_src shell
+
+  ## from scratch
+  python -m venv venv
+  # on Windows
+  venv\Scripts\activate
+  # on Linux
+  source venv\bin\activate
+
+  pip install --upgrade openai
+  python openai_test.py
+
+  ## using requirements
+  pip freeze > requirements.txt
+  pip install -r requirements.txt
+
+#+end_src
